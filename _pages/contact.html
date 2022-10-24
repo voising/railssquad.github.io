@@ -1,0 +1,58 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+priority: 0.9
+---
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "Guillaume Voisin",
+    "url": "https://www.railssquad.com",
+    "sameAs": [
+      "https://twitter.com/{{ site.social-username.twitter }}",
+      "https://linkedin.com/in/{{ site.social-username.linkedin }}"
+    ]
+  }
+</script>
+
+<div class="contact-wrapper">
+  <div class="contact">
+
+    <aside class="contact-intro">
+      <p class="paragraph-huge">
+        Connect with me on
+        <a href="//linkedin.com/in/{{ site.social-username.linkedin }}">Linkedin</a>
+      </p>
+    </aside>
+
+    <div class="contact-form">
+
+      <form
+          action="https://formspree.io/f/mjvzakol"
+          method="POST"
+      >
+        <section>
+
+        <label>
+          Your email:
+          <input required type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+        </label>
+        </section>
+
+        <section>
+
+        <label for="message">
+          Your message:
+          <textarea name="message" id="message"></textarea>
+        </label>
+          <section>
+          <!-- your other form fields go here -->
+        <button  class="button-secondary" type="submit">Send</button>
+      </form>
+    </div>
+
+  </div>
+</div>
