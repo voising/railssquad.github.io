@@ -20,7 +20,7 @@ include:
 # Github Pages
 domain: railssquad.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://railssquad.com  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: ""
+baseurl: "/_site/"
 
 # Site settings
 title: RailsSquad
